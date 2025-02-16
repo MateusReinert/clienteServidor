@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="serverClient:jar2">
+    <output-path>$PROJECT_DIR$/out/artifacts/serverClient_jar2</output-path>
+    <root id="archive" name="hotelServer.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/manifest/hotelServer/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="serverClient" />
+    </root>
+  </artifact>
+</component>
